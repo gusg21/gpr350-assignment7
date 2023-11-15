@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 590648958440414130}
   - component: {fileID: 7480456240513016854}
   - component: {fileID: 5502741424710855362}
+  - component: {fileID: 104126730354688266}
   m_Layer: 0
-  m_Name: Particle
-  m_TagString: Untagged
+  m_Name: Bullet
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,3 +116,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+--- !u!114 &104126730354688266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884174885331103408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b10b2fbafd84539ad8fc05b2aa1ef84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

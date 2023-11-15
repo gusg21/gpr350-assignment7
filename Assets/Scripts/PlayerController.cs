@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
     void Movement()
     {
         var c = Camera.main.transform;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8423461047832904371}
   - component: {fileID: 590648958440414130}
   - component: {fileID: 2793791959613518675}
+  - component: {fileID: 558597682445631215}
   m_Layer: 0
   m_Name: AABB
   m_TagString: Untagged
@@ -96,3 +97,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13879eaa9e83bec4f87a70f5c85b7e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &558597682445631215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884174885331103408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd10fad4add428d9c8bd6f8dd4dae94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particles: {fileID: 5634353858573824370, guid: 27d52e76019a4064d974b18262cbb7aa, type: 3}

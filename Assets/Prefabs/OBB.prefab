@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 8423461047832904371}
   - component: {fileID: 590648958440414130}
   - component: {fileID: 7283588629151662974}
+  - component: {fileID: -1369249552133523438}
+  - component: {fileID: -1235424191025987110}
   m_Layer: 0
-  m_Name: Box
+  m_Name: OBB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,3 +98,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d66a0acd9a359b342a44fa7277551762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1369249552133523438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884174885331103408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a472d91cc94f07b0f6fc61550e410f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1235424191025987110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884174885331103408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd10fad4add428d9c8bd6f8dd4dae94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particles: {fileID: 5634353858573824370, guid: 27d52e76019a4064d974b18262cbb7aa, type: 3}
